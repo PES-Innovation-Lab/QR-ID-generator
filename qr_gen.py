@@ -11,5 +11,4 @@ if not os.path.exists("QR Code"):
     os.makedirs("QR Code")
 
 for i in range(n):
-    
     qrcode.make(uuid.uuid4().hex).save(os.path.join("QR Code",f"{i}.png"))

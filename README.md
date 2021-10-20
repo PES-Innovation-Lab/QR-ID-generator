@@ -7,7 +7,7 @@ To generate N QR-Codes, run the following command:
 ```python 
 python3 qr_gen.py N
 ```
-If no value is provided, 120 codes will be generated.
+If no value is provided, 170 codes will be generated.
 
 QR Codes will be stored in a subdirectory of the present working directory called `QR Code`. QR Codes generated will be of the format `QR Code\[0-N].png`
 
